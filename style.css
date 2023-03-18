@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select.form-control {
+    display: inline;
+    width: 150px;
+    margin-left: 0px;
+}
+
+input.form-control {
+    display: inline;
+    width: 150px;
+    margin: 0;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+#vertical-2,#example{
+    overflow: hidden;
+    border-radius: 20px;
+}
+ #vertical-2 thead,
+ #vertical-2 tbody {
+     display: inline-table;
+     border-radius: 200px;
+
+ }
+  .homecontainer {
+      display: grid;
+      /* or inline-flex */
+      grid-template-columns: auto auto auto auto;
+      column-gap: 20px;
+      overflow: hidden;
+  }
+  .main {
+      width: 250px;
+      margin: 2rem;
+      height: 600;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      overflow: hidden;
+  }
+
+  .img {
+      height: 200px;
+      overflow: hidden;
+  }
+
+  .img img {
+      width: 100%;
+  }
+
+  .content {
+      height: 120px;
+      text-align: center;
+      border-bottom: 2px solid #e5e5e5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 0.5rem;
+      overflow: hidden;
+  }
+
+  .footer {
+      text-align: right;
+      padding-top: 0.5rem;
+      padding-right: 1.5rem;
+      
+  }
+  .content h4{
+    font-size: 22px;
+  }
+  .footer h5 {
+      font-size: 15px;
+  }
+  .styled-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 340px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+      overflow: hidden;
+
+  }
+  .styled-table thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+  }
+  .styled-table th,
+  .styled-table td {
+      padding: 12px 15px;
+  }
+  .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+      
+  }
+
+  .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+      
+  }
+
+  .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+  }
+  .styled-table tbody tr.active-row {
+      font-weight: bold;
+      color: #009879;
+  }
+.pubcontainer{
+   margin: 0 5rem;
+}
+.dataTables_filter{
+    margin-bottom: 1rem;
+}
+
+.container tr td a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.nav-link{
+    color: black;
+}
+
+.chart-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.chart-container{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
